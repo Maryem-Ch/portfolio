@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,700;1,300&family=Forum&display=swap');
+
+/* Reset default margin on body */
+body {
+    margin: 0;
+    font-family: 'Cormorant Garamond', serif;
+    border-top: 5px solid #D8BFD8;
+    border-bottom: 10px solid #D8BFD8;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+header {
+    height: 110px; 
+}
+
+h1 {
+    text-align: center;
+    color: #ADD8E6;
+}
+
+h2 {
+    color: white;
+    padding-bottom: 10px;
+}
+
+h3 {
+    
+    color: black;
+    border-bottom: 2px solid black;
+    font-weight: bold;
+}
+
+h4 {
+    color: black;
+    font-weight: bold;
+}
+
+h5 {
+    color: purple;
+    font-weight: bold;
+    margin-bottom: 10px; 
+}
+
+h6 {
+
+    color: black;
+    font-weight: bold;
+}
+
+/* Navigation styling */
+.nav-container {
+    background-color: #D8BFD8, #ADD8E6, #D8BFD8;
+    padding: 10px; 
+    
+}
+
+nav {
+   background: linear-gradient(to right, #B99BC4, #ADD8E6, #B99BC4);
+    border-top: 2px solid #D8BFD8;
+    border-bottom: 2px solid #D8BFD8;
+    padding: 5px;
+    font-family: cursive;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+    margin: 0 15px;
+}    
+
+nav a:link {
+    color: blueviolet;
+}
+
+nav a:visited {
+    color: blueviolet;
+}
+
+nav a:hover {
+    color: purple;
+}
+
+nav a:active {
+    color: purple;
+}
+
+/* Main content styling */
+main {
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+.home-photo {
+    float: right;
+    max-width: 50%;
+    height: auto;
+    margin: 50px 0 10px 20px;
+}
+
+/* Welcome section styling */
+#welcome {
+    background: #B99BC4;
+    font-family: monospace;
+    font-size: 30px;
+    padding: 50px 0;
+    text-align: center;
+    height: auto;
+}
+
+
+
+#home-hero{
+    background-image: url(images/fantasy.jpg);
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#home-hero h1{
+    text-align: center;
+    color: #FF00FE;
+    text-shadow: 2px 2px 2px black;
+    margin: 0;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5); 
+}
+
+
+/* Footer styling */
+footer {
+    background: linear-gradient(to right, #B99BC4, #ADD8E6, #B99BC4);
+    border-top: 1px solid purple;
+    padding: 20px;
+    color: #000000;
+    text-align: center;
+}
+
+.footer-bottom {
+    background-color: black;
+    padding: 10px;
+    color: white;
+}
+
+/* Copyright Information styling */
+.rights-reserved {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* Social Icons styling */
+/* LinkedIn */
+.fa-linkedin {
+    color: #0077B5; 
+}
+
+/* GitHub */
+.fa-github {
+    color: #211F1F; 
+}
+
+/* Email */
+.fa-envelope {
+    color:blueviolet; 
+}
+
+/* Resume */
+.fa-file-text {
+    color: blueviolet;
+}
+
+/* Portfolio */
+.fa-folder-open {
+    color: blueviolet;
+}
+
+
+.learn-more {
+    background: linear-gradient(to right, #B99BC4, #ADD8E6, #B99BC4);
+    color: black;
+    font-weight: bold;
+    padding: 10px; 
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+/* Responsive styles for tablets */
+@media only screen and (max-width: 1024px) {
+    h1 {
+        font-size: 2em;
+    }
+}
+
+/* Responsive styles for smartphones */
+@media only screen and (max-width: 768px) {
+    h1 {
+        font-size: 1.5em;
+    }
+}
+
+/* Logo styling */
+.logo {
+    margin: 0 auto;
+    display: block;
+}
+
